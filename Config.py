@@ -8,10 +8,10 @@ class Config(object):
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "marvinnn143_bot")
-    SUPPORT = os.environ.get("SUPPORT", "TheSupportChat") # Your Support
-    CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
+    SUPPORT = os.environ.get("SUPPORT", "https://t.me/+YfW2SwQwXF1jMTE9") # Your Support
+    CHANNEL = os.environ.get("CHANNEL", "https://t.me/itzdamnmarvinn") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
-    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "")) # telegram I'd not Username
+    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "6893637910")) # telegram I'd not Username
     AUTO_LEAVE_TIME = int(os.environ.get("AUTO_LEAVE_ASSISTANT_TIME", "54000")) # in seconds
     AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', None) # Change it to "True"
