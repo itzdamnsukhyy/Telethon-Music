@@ -1,0 +1,11 @@
+# Exported from Render on 2024-06-28T09:41:49Z
+services:
+- type: web
+  name: Telethon-music
+  runtime: static
+  repo: https://github.com/itzdamnsukhyy/Telethon-Music
+  envVars:
+  - key: Marvinnn
+    sync: false
+  staticPublishPath: GitHub/itzdamnsukhyy/telethon-music/build
+version: "1"
